@@ -11412,6 +11412,16 @@
                         "twitter": "doichain"
                     }
                 ]
+            },
+            {
+                "url": "ugly-bird-70.doi.works:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/doichain/electrum-doi/issues",
+                        "twitter": "doichain"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -11449,6 +11459,11 @@
         "electrum": [
             {
                 "url": "electrum1.egulden.org:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "electrum3.egulden.org:50004",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             },
@@ -27111,6 +27126,15 @@
                     }
                 ],
                 "protocol": "WSS"
+            },
+            {
+                "url": "electrum02.chainster.org:50003",
+                "contact": [
+                    {
+                        "discord": "312541186793406465"
+                    }
+                ],
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?",
@@ -41795,6 +41819,30 @@
         "electrum": [
             {
                 "url": "electrum2.runebase.io:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.runebase.io:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
+            {
+                "url": "electrum4.runebase.io:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
