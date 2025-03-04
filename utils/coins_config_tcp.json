@@ -1022,6 +1022,10 @@
                 "url": "elec-seeder-one.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -2642,6 +2646,16 @@
                         "discord": "388437778624413706"
                     }
                 ]
+            },
+            {
+                "url": "electrumx.aur.ewmcx.info:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "failover.aur.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -11065,6 +11079,11 @@
         "derivation_path": "m/44'/18'",
         "electrum": [
             {
+                "url": "failover.dgc.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "electrumx.dgc.ewmcx.org:50001",
                 "protocol": "TCP"
             }
@@ -18964,6 +18983,28 @@
         "electrum": [
             {
                 "url": "il8p.electrumx.transcenders.name:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "coins@ewmci.com"
+                    },
+                    {
+                        "discord": "[CryptoStan]#9341"
+                    },
+                    {
+                        "twitter": "EwmciL"
+                    },
+                    {
+                        "reddit": "InfiniLooP"
+                    },
+                    {
+                        "github": "WikiMin3R"
+                    }
+                ]
+            },
+            {
+                "url": "il9p.electrumx.transcenders.name:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -35751,6 +35792,45 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
+    "TRC": {
+        "coin": "TRC",
+        "type": "UTXO",
+        "name": "Terracoin",
+        "coinpaprika_id": "trc-terracoin",
+        "coingecko_id": "terracoin",
+        "livecoinwatch_id": "TRC",
+        "explorer_url": "https://chainz.cryptoid.info/trc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Terracoin",
+        "confpath": "USERHOME/.terracoincore/terracoin.conf",
+        "rpcport": 13332,
+        "pubtype": 0,
+        "p2shtype": 5,
+        "wiftype": 128,
+        "txfee": 10000,
+        "dust": 5460,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 120,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/83'",
+        "electrum": [
+            {
+                "url": "failover.trc-uis.ewmcx.biz:50006",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "TRX-BEP20_OLD": {
         "coin": "TRX-BEP20_OLD",
         "type": "BEP-20",
@@ -45212,6 +45292,30 @@
             "homepage": "https://www.runebase.io"
         },
         "electrum": [
+            {
+                "url": "electrum2.runebase.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.runebase.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
             {
                 "url": "electrum4.runebase.io:50002",
                 "protocol": "SSL",
