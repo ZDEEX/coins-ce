@@ -807,18 +807,13 @@
         },
         "electrum": [
             {
-                "url": "aby-ex-four.ewmci.online:50013",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "elec-seeder-one.artbytecoin.org:50013",
                 "protocol": "WSS",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "elec-seeder-two.artbytecoin.org:50013",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -2433,6 +2428,11 @@
                         "discord": "388437778624413706"
                     }
                 ]
+            },
+            {
+                "url": "electrumx.aur.ewmcx.info:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -4439,15 +4439,6 @@
                         "discord": "475820011634819072"
                     }
                 ]
-            },
-            {
-                "url": "bbk-ex-two.ewmci.online:50003",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -5781,10 +5772,6 @@
             {
                 "url": "electrumserver01.globalboost.info:50013",
                 "protocol": "WSS"
-            },
-            {
-                "url": "electrumserver02.globalboost.info:50013",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -6049,6 +6036,24 @@
         },
         "derivation_path": "m/44'/177'",
         "electrum": [
+            {
+                "url": "electrum1.btcz.rocks:50004",
+                "contact": [
+                    {
+                        "discord": "VandarGR#6065"
+                    }
+                ],
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum2.btcz.rocks:50004",
+                "contact": [
+                    {
+                        "discord": "VandarGR#6065"
+                    }
+                ],
+                "protocol": "WSS"
+            },
             {
                 "url": "electrum3.btcz.rocks:50004",
                 "contact": [
@@ -8238,15 +8243,6 @@
             "homepage": "http://clamclient.com"
         },
         "electrum": [
-            {
-                "url": "clam-ex-one.ewmci.online:50003",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
             {
                 "url": "electrum3.cipig.net:30075",
                 "protocol": "WSS",
@@ -17417,6 +17413,28 @@
         "electrum": [
             {
                 "url": "il8p.electrumx.transcenders.name:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "coins@ewmci.com"
+                    },
+                    {
+                        "discord": "[CryptoStan]#9341"
+                    },
+                    {
+                        "twitter": "EwmciL"
+                    },
+                    {
+                        "reddit": "InfiniLooP"
+                    },
+                    {
+                        "github": "WikiMin3R"
+                    }
+                ]
+            },
+            {
+                "url": "il9p.electrumx.transcenders.name:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
                 "contact": [
@@ -32943,6 +32961,45 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
+    "TRC": {
+        "coin": "TRC",
+        "type": "UTXO",
+        "name": "Terracoin",
+        "coinpaprika_id": "trc-terracoin",
+        "coingecko_id": "terracoin",
+        "livecoinwatch_id": "TRC",
+        "explorer_url": "https://chainz.cryptoid.info/trc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Terracoin",
+        "confpath": "USERHOME/.terracoincore/terracoin.conf",
+        "rpcport": 13332,
+        "pubtype": 0,
+        "p2shtype": 5,
+        "wiftype": 128,
+        "txfee": 10000,
+        "dust": 5460,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 120,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/83'",
+        "electrum": [
+            {
+                "url": "failover.trc-uis.ewmcx.biz:50007",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "TRX-BEP20_OLD": {
         "coin": "TRX-BEP20_OLD",
         "type": "BEP-20",
@@ -33798,11 +33855,6 @@
             "homepage": "https://unituscurrency.com"
         },
         "electrum": [
-            {
-                "url": "failover.trc-uis.ewmcx.biz:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": false
-            },
             {
                 "url": "uis-uno.ewmcx.net:50003",
                 "protocol": "WSS",
@@ -37683,21 +37735,8 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.vanillacash.info:50013",
-                "protocol": "WSS"
-            },
-            {
                 "url": "electrumx2.vanillacash.info:50013",
                 "protocol": "WSS"
-            },
-            {
-                "url": "xvc-ex-seven.ewmci.online:50003",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -41434,6 +41473,15 @@
         "required_confirmations": 3,
         "electrum": [
             {
+                "url": "electrum.zdeex.org:50006",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "contact@zdeex.org"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.zdeex.org:50006",
                 "protocol": "WSS",
                 "contact": [
@@ -41542,7 +41590,19 @@
         },
         "electrum": [
             {
-                "url": "electrum4.runebase.io:50004",
+                "url": "electrum2.runebase.io:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.runebase.io:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -42494,6 +42554,63 @@
         ],
         "explorer_block_url": "nucleus/blocks/",
         "binance_id": "OSMO"
+    },
+    "LUPA": {
+        "coin": "LUPA",
+        "type": "Smart Chain",
+        "name": "Lupaza",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.lupacoin.biz/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "asset": "LUPA",
+        "fname": "Lupaza",
+        "rpcport": 64151,
+        "txversion": 4,
+        "overwintered": 1,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo",
+        "electrum": [
+            {
+                "url": "electrum.lupacoin.biz:50006",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "contact@lupacoin.biz"
+                    },
+                    {
+                        "github": "LUPAZA-coin"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.lupacoin.biz:50006",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "contact@lupacoin.biz"
+                    },
+                    {
+                        "github": "LUPAZA-coin"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
     },
     "NFT_ETH": {
         "coin": "NFT_ETH",
